@@ -1,0 +1,9 @@
+I'd be happy to help you with that!
+
+If you're looking for some important points of HTML, I'd recommend checking out Video #2, "Your First HTML Website".
+
+Specifically, at around 09:51-09:53 (that's the timestamp), the instructor explains what an HTML file is and how it works. You'll learn about the syntax of HTML, which sets the stage for understanding how to build your first website.
+
+In this section, you'll get a solid introduction to the basics of HTML, including its structure and how it differs from other programming languages. This foundation will help you as you continue learning and building with HTML!
+
+If you have any more questions or need further clarification, feel free to ask!
