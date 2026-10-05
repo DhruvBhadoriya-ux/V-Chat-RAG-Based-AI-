@@ -1,23 +1,16 @@
-# V-Chat-RAG-Based-AI-
-V-Chat is a RAG-based AI chatbot for education that helps students find answers from lecture videos and transcripts instantly. It uses semantic search and LLMs to give accurate responses with lecture names and timestamps, making learning faster, smarter, and more interactive.
-How to use this RAG AI Teaching assistant on your own data
+# React + Vite
 
-Step 1 - Collect your videos
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Move all your video files to the videos folder
+Currently, two official plugins are available:
 
-Step 2 - Convert to mp3
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Convert all the video files to mp3 by ruunning video_to_mp3
+## React Compiler
 
-Step 3 - Convert mp3 to json
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Convert all the mp3 files to json by ruunning mp3_to_json
+## Expanding the ESLint configuration
 
-Step 4 - Convert the json files to Vectors
-
-Use the file preprocess_json to convert the json files to a dataframe with Embeddings and save it as a joblib pickle
-
-Step 5 - Prompt generation and feeding to LLM
-
-Read the joblib file and load it into the memory. Then create a relevant prompt as per the user query and feed it to the LLM
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
